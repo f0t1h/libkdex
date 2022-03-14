@@ -8,10 +8,7 @@ using namespace kdex;
 
 int main(){
 
-    
-    Eigen::MatrixXd mat{{1,2},{3,4},{5,6}};
-    KDE<> estimator{mat};
-    cout << mat << "\n";
+    test_kde();
 
     return 0;
 }
